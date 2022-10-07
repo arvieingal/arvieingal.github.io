@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+:root{
+    --primary: hsla(123, 100%, 50%, 0.75);
+    --secondary: hsla(313, 100%, 50%, 0.75);
+    --tertiary: hsla(182, 100%, 50%, 0.85);
+    --quaternary: rgba(0, 8, 124, 0.85);
+}
+body{
+    padding: 0;
+    margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: linear-gradient(150deg, var(--primary), var(--secondary)),
+                url('Images/University-of-San-Carlos-Logo.png');
+    background-size: 100% 100%;
+    background-attachment: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+div{
+    background: linear-gradient(180deg, var(--tertiary), var(--quaternary));
+}
