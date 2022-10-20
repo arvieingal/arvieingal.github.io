@@ -33,27 +33,27 @@
     line-height: 2;
 }
 html{
-    font-size: 20px;
+    font-size: 18px;
     color: aqua;
 }
 .title{
     border: 4px solid aqua;
-    width: 800px;
-    margin:auto;
     padding: 20px;
     background-image: linear-gradient(to bottom left, #0000B0,#A40000);
     border-radius: 50px;
     box-shadow: #00FFFB 8px 8px 3px 3px;
+    width: 60%;
+    margin: auto;
 }
 .job{
     border: 4px solid aqua;
-    width: 800px;
-    margin:auto;
     padding: 20px;
     text-align: center;
     background-image: linear-gradient(to bottom left, #0000B0,#A40000);
     border-radius: 50px;
     box-shadow: #00FFFB 8px 8px 3px 3px;
+    width: 60%;
+    margin: auto;
 }
 body{
     background-image: linear-gradient(to bottom right, #0000B0,#A40000);
@@ -75,4 +75,3 @@ h2{
 .educ p{
     padding-left: 40px;
 }
-
