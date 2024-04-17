@@ -1,0 +1,83 @@
+<main>
+  <div class="h-screen">
+    <nav class="bg-[#F0E8E8] h-[10%] w-screen">
+      <div class="h-full flex flex-row justify-between items-center py-1">
+        <div class="flex flex-row items-center float-left w-auto h-full">
+            <img
+          src="../assets/images/logodiamond.png"
+          id="diamond"
+          class="ml-3 md:ml-6 xl: ml-10 w-auto h-full"
+            />
+            <h1 class="text-[16px] md:text-[24px] xl:text-[40px]">ASYS Utility Web v1.0</h1>
+          </div>
+          <div class="flex h-full">
+            <img src="../assets/images/download-removebg-preview.png" id="ml" class="hidden xl:flex xl:w-auto xl:h-full xl:m-auto" />
+          </div>
+          <button class="bg-[#F80202] hover:bg-red-600 text-[12px] md:text-[20px] font-medium text-white mr-3 md:mr-6 xl:mr-10 px-2 md:px-4 xl:px-6 py-0.5 md:py-1 xl:py-1.5 rounded-lg">Log out</button>
+      </div>
+    </nav>
+    <div class="flex flex-col pt-28 md:pt-32 xl:pt-32 h-[90%] items-center">
+      <div id="containeradd" class="w-4/6 md:w-7/12 xl:w-2/6">
+        <!-- <h1>User Administrator</h1> -->
+        <div class="flex mb-4 md:mb-6 xl:mb-8" id="idno1">
+          <div class="w-28 md:w-44 xl:w-48">
+            <label for="Idno" id="ssss" class="text-[10px] md:text-[18px] xl:text-[20px]">Search IdNo:</label>
+          </div>
+          <input type="text" class="text-[10px] md:text-[16px] xl:text-[16px] bg-gray-200 h-6 md:h-8 xl:h-8 rounded-md ml-2 xl:ml-4 w-full px-2 py-1 border-[1px] border-b-black" id="IdNo" maxlength="25" />
+        </div>
+        <div class="flex mb-4 md:mb-6 xl:mb-8" id="idno1">
+          <div class="w-28 md:w-44 xl:w-48">
+            <label for="Idno" id="ss" class="text-[10px] md:text-[18px] xl:text-[20px]">Id No:</label>
+          </div>
+          <input type="text" class="text-[10px] md:text-[16px] xl:text-[16px] bg-gray-200 h-6 md:h-8 xl:h-8 rounded-md ml-2 xl:ml-4 w-full px-2 py-1 border-[1px] border-b-black" id="IdNo" maxlength="25" />
+        </div>
+        <div class="flex mb-4 md:mb-6 xl:mb-8" id="lastname2">
+          <div class="w-28 md:w-44 xl:w-48">
+            <label for="LastName" id="ss" class="text-[10px] md:text-[18px] xl:text-[20px]">Last Name:</label>
+          </div>
+          <input type="text" class="text-[10px] md:text-[16px] xl:text-[16px] bg-gray-200 h-6 md:h-8 xl:h-8 rounded-md ml-2 xl:ml-4 w-full px-2 py-1 border-[1px] border-b-black" id="lastname" />
+        </div>
+        <div class="flex mb-4 md:mb-6 xl:mb-8" id="">
+          <div class="w-28 md:w-44 xl:w-48">
+            <label for="FirstName" id="ss" class="text-[10px] md:text-[18px] xl:text-[20px]">First Name:</label>
+          </div>
+          <input type="text" class="text-[10px] md:text-[16px] xl:text-[16px] bg-gray-200 h-6 md:h-8 xl:h-8 rounded-md ml-2 xl:ml-4 w-full px-2 py-1 border-[1px] border-b-black" id="firstname" />
+        </div>
+        <div class="flex mb-4 md:mb-6 xl:mb-8">
+          <div class="w-28 md:w-44 xl:w-48">
+            <label for="MiddleName" id="ss" class="text-[10px] md:text-[18px] xl:text-[20px]">Middle Name:</label>
+          </div>
+          <input type="text" class="text-[10px] md:text-[16px] xl:text-[16px] bg-gray-200 h-6 md:h-8 xl:h-8 rounded-md ml-2 xl:ml-4 w-full px-2 py-1 border-[1px] border-b-black" id="middlename" />
+        </div>
+        <div class="flex mb-4 md:mb-6 xl:mb-8">
+          <div class="w-28 md:w-44 xl:w-48">
+            <label for="JobTitle" id="ss" class="text-[10px] md:text-[18px] xl:text-[20px]">Job Title:</label>
+          </div>
+          <select class="cursor-pointer text-[10px] md:text-[16px] xl:text-[16px] bg-gray-200 h-6 md:h-8 xl:h-8 rounded-md ml-2 xl:ml-4 w-full px-2 py-1 border-[1px] border-b-black" id="jobtitle">
+            <option value="">SORTER</option>
+            <option value="">MLWB</option>
+            <option value="">PRICING</option>
+            <option value="">DISTRI</option>
+            <option value="">ALLBOSMAN</option>
+            <option value="">OPI SORTER</option>
+            <option value="">RELEASE STAFF</option>
+          </select>
+        </div>
+        <div class="flex mb-8 md:mb-12 xl:mb-16">
+          <div class="w-28 md:w-44 xl:w-48">
+            <label for="status" id="ss" class="text-[10px] md:text-[18px] xl:text-[20px]">Status:</label>
+          </div>
+          <select class="cursor-pointer text-[10px] md:text-[16px] xl:text-[16px] bg-gray-200 h-6 md:h-8 xl:h-8 rounded-md ml-2 xl:ml-4 w-full px-2 py-1 border-[1px] border-b-black" id="status">
+            <option value="">ACTIVE</option>
+            <option value="">INACTIVE</option>
+          </select>
+        </div>
+        <div class="flex flex-row justify-around" id="buttonss">
+          <button type="button" id="buttonns" class="bg-[#F80202] hover:bg-red-600 font-medium text-white text-[9px] md:text-[16px] xl:text-[18px] rounded-sm md:rounded-md xl:rounded-lg px-3 py-0.5 md:px-6 md:py-1 xl:px-10 xl:py-1.5">CLEAR</button>
+          <button type="button" id="buttonnn" class="bg-[#55B455] hover:bg-green-600 font-medium text-[9px] md:text-[16px] xl:text-[18px] rounded-sm md:rounded-md xl:rounded-lg px-3 py-0.5 md:px-6 md:py-1 xl:px-10 xl:py-1.5">ADD</button> 
+          <button type="button" id="buttonnn" class="bg-gray-300 hover:bg-gray-600 font-medium text-[9px] md:text-[16px] xl:text-[18px] rounded-sm md:rounded-md xl:rounded-lg px-3 py-0.5 md:px-6 md:py-1 xl:px-10 xl:py-1.5">UPDATE</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>

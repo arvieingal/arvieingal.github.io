@@ -1,0 +1,171 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* .container{
+    background-color: transparent;
+    padding: 2px;
+    width: 50%;
+    height: 70%;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+#containeradd {
+    background-color: transparent;
+    padding: 2px;
+    width: 97%;
+    height: 85%;
+}
+#IdNo{
+    width: 180px;
+    height: 7%;
+}
+#none{
+    width: 40%;
+    height: 7%;
+}
+#lastname{
+    width: 60%;
+    height: 7%;
+}
+#firstname{
+    width: 60%;
+    height: 7%;
+}
+#middlename{
+    width: 60%;
+    height: 7%;
+}
+#jobtitle{
+    width: 60%;
+    height: 7%;
+}
+#status{
+    width:30%;
+    height: 7%;
+}
+#buttonns{
+    width: 120px;
+    height: 7%;
+    border: none;
+    color: rgb(5, 5, 5);
+    cursor: pointer;
+    border-radius: 5%;
+    background-color: rgb(240, 74, 74);
+    font-weight: bold;
+    
+    
+}
+#buttonnn{
+    width: 100px;
+    height: 7%;
+    cursor: pointer;
+    border-radius: 5%;
+    border: none;
+    background-color: rgb(85, 180, 85);
+    font-weight: bold;
+}
+#buttonnns{
+    width: 100px;
+    height: 7%;
+    margin-left: 20px;
+    cursor: pointer;
+    border-radius: 5%;
+    border: none;
+    background-color: rgb(230, 190, 16);
+    font-weight: bold;
+    
+}
+#buttonss{
+    margin-top: 5%;
+    margin-left: 25%;
+    
+    
+}
+.form-control0{
+    margin-top: 3%;
+    margin-left: 32px;
+    border-radius: 2%;
+    border: none;
+    border-bottom: 1px solid rgb(5, 5, 5);
+    background-color: rgb(238, 238, 238);
+}
+.form-control1{
+    margin-top: 3%;
+    margin-left: 90px;
+    border-radius: 2%;
+    border: none;
+    border-bottom: 1px solid rgb(5, 5, 5);
+    background-color: rgb(238, 238, 238);
+}
+.form-control2{
+    border-radius: 2%;
+    border: none;
+    border-bottom: 1px solid rgb(5, 5, 5);
+    background-color: rgb(238, 238, 238);
+}
+.form-control3{
+    margin-top: 3%;
+    margin-left: 45px;
+    border-radius: 2%;
+    border: none;
+    border-bottom: 1px solid rgb(5, 5, 5);
+    background-color: rgb(238, 238, 238);
+}
+.form-control4{
+    margin-top: 3%;
+    margin-left: 42px;
+    border-radius: 2%;
+    border: none;
+    border-bottom: 1px solid rgb(5, 5, 5);
+    background-color: rgb(238, 238, 238);
+}
+.form-control5{
+    margin-top: 3%;
+    margin-left: 21px;
+    border-radius: 2%;
+    border: none;
+    border-bottom: 1px solid rgb(5, 5, 5);
+    background-color: rgb(238, 238, 238);
+}.form-control6{
+    margin-top: 3%;
+    margin-left: 63px;
+    border-radius: 2%;
+    border: none;
+    border-bottom: 1px solid rgb(5, 5, 5);
+    background-color: rgb(238, 238, 238);
+}
+.form-control7{
+    margin-top: 3%;
+    margin-left: 82px;
+    border-radius: 2%;
+    border: none;
+    border-bottom: 1px solid rgb(5, 5, 5);
+    background-color: rgb(238, 238, 238);   
+}
+h2{
+    font-size: 50px;
+    margin-left: -2%;
+}
+.header{
+    display: flex;
+    background-color: rgb(240, 232, 232);
+    justify-content: space-evenly;
+}
+.header2{
+    display:inline-flex;
+    align-items: center;
+    
+}
+#diamond{
+    width: 80px;
+    height: 80px;
+    margin-left: -40%;
+}
+#ml{
+    margin-left: 800px;
+    float: right;
+
+}
+.form-group{
+    font-size: large;
+} */

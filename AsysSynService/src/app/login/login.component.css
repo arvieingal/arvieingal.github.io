@@ -1,0 +1,113 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#img{
+    animation: spin 5s linear infinite;
+}
+@keyframes spin {
+    0% {
+    transform: rotateY(0deg);
+    }
+    100% {
+    transform: rotateY(360deg);
+    }
+}
+
+/*
+.login-container {
+    background-color: transparent;
+    padding: 2px;
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    float: right;
+    margin-right: 18%;
+    margin-top: 3%;
+}
+.login-container2 {
+    background-color:transparent;
+    padding: 20px;
+    width: 500px;
+    height: 350px;
+    margin: 0 auto;
+    margin-top: -10px;  
+}
+#img{
+    width: 8cm;
+    height: 7cm;
+    border-radius: 3%;
+    margin-left: 28%;
+    animation: spin 5s linear infinite;
+}
+@keyframes spin {
+    0% {
+    transform: rotateY(0deg);
+    }
+    100% {
+    transform: rotateY(360deg);
+    }
+}
+a{
+    margin-left: 30%;
+    font-style: normal;
+    font-size: 3vh;
+}
+#padds{
+    padding-left: 20px;
+}
+#zone{
+    width: 500px;
+    height: 50px;
+    border-radius: 2%;
+    border: none;
+    border-bottom: 1px solid rgb(5, 5, 5);
+    background-color: rgb(238, 238, 238);
+}
+#username{
+    width: 500px;
+    height: 50px;
+    border-radius: 2%;
+    border: none;
+    border-bottom: 1px solid rgb(5, 5, 5);
+    background-color: rgb(238, 238, 238);
+}
+#password{
+    width: 500px;
+    height: 50px;
+    border-radius: 2%;
+    border: none;
+    border-bottom: 1px solid rgb(5, 5, 5);
+    background-color: rgb(238, 238, 238);
+}
+#buttons{
+    padding-left: 170px;
+    padding-top: 20px;
+}
+#zon{
+    padding-top: 0px;
+}
+#usernames{
+    padding-top: 18px;
+}
+#pass{
+    padding-top: 18px;
+}
+#sss{
+    font-size: large;
+}
+#version{
+    margin-top: 1px;
+}
+#button1{
+    background-color: rgb(248, 2, 2);
+    width: 150px;
+    height: 40px;
+    color: white;
+    border: none;
+    border-radius: 3%;
+    cursor: pointer;
+}
+.back{
+    max-width: 40%;
+    height: 97vh;
+} */
